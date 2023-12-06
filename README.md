@@ -1,7 +1,8 @@
 # ANN AI Chatbot
 
 ## Overview
-This project implements a custom AI chatbot using Django, ChatterBot, with WebSocket support for real-time communication, PostgreSQL for data persistence, and Celery for background tasks.
+This Django-based project integrates an NLTK-powered chatbot with WebSocket for real-time communication and uses PostgreSQL for data storage. Celery is used for background tasks like continuous training of the chatbot model.
+
 
 ## Features
 - Real-time chat interface with WebSocket
